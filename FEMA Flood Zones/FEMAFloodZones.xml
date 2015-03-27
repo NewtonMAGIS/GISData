@@ -1,0 +1,122 @@
+<metadata xml:lang="en"><Esri><CreaDate>20150327</CreaDate><CreaTime>14324800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20150327</SyncDate><SyncTime>14392700</SyncTime><ModDate>20150327</ModDate><ModTime>14394000</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20110808" Time="154100" Name="" export="">CalculateField "FEMA FIRM Flood Zones" Label [FLOOD_ZONE] VB #</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20110808" Time="154234" Name="" export="">CalculateField "FEMA FIRM Flood Zones" Label "X" VB #</Process><Process ToolSource="c:\program files\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20130125" Time="153716" Name="" export="">FeatureClassToFeatureClass "Database Servers\192.9.202.154_NEWTONGIS.gds\Protected_Areas (VERSION:dbo.DEFAULT)\Protected_Areas.DBO.FEMA_FIRM_FloodZones" "Database Servers\192.9.200.67_NEWTONGIS.gds\Reference (VERSION:dbo.DEFAULT)" FEMAFloodZones # "FEMA_ID "FEMA ID" true true false 8 Double 0 11 ,First,#,Database Servers\192.9.202.154_NEWTONGIS.gds\Protected_Areas (VERSION:dbo.DEFAULT)\Protected_Areas.DBO.FEMA_FIRM_FloodZones,FEMA_ID,-1,-1;FLOOD_ZONE "Flood Zone" true true false 55 Text 0 0 ,First,#,Database Servers\192.9.202.154_NEWTONGIS.gds\Protected_Areas (VERSION:dbo.DEFAULT)\Protected_Areas.DBO.FEMA_FIRM_FloodZones,FLOOD_ZONE,-1,-1;Label "Label" true true false 4 Text 0 0 ,First,#,Database Servers\192.9.202.154_NEWTONGIS.gds\Protected_Areas (VERSION:dbo.DEFAULT)\Protected_Areas.DBO.FEMA_FIRM_FloodZones,Label,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20130204" Time="112741" Name="" export="">CopyFeatures "Database Servers\192.9.200.67_NEWTONGIS.gds\Reference (VERSION:dbo.DEFAULT)\Reference.DBO.FEMAFloodZones" Z:\Geodata\Publication.gdb\Reference_DBO_FEMAFloodZones # 0 0 0</Process></lineage><itemProps><itemName Sync="TRUE">FEMAFloodZones</itemName><itemLocation><linkage Sync="TRUE">file://\\PC-DGREENFIELD1\C$\Temp\GitHub\Shapefiles\FEMAFloodZones.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><nativeExtBox><westBL Sync="TRUE">718278.755301</westBL><eastBL Sync="TRUE">746108.196690</eastBL><southBL Sync="TRUE">2928326.812895</southBL><northBL Sync="TRUE">2959211.813133</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.276</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.3'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,656166.6666666665],PARAMETER[&amp;quot;False_Northing&amp;quot;,2460625.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-71.5],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,41.71666666666667],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.68333333333333],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,41.0],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2249]]&lt;/WKT&gt;&lt;XOrigin&gt;-119851500&lt;/XOrigin&gt;&lt;YOrigin&gt;-94498200&lt;/YOrigin&gt;&lt;XYScale&gt;37371882.687749371&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102686&lt;/WKID&gt;&lt;LatestWKID&gt;2249&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISProfile>FGDC</ArcGISProfile><scaleRange><minScale>500000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle></Esri><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="b5513dbccaa27b9d9324a9cb9780fd71" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YSB4bWw6bGFu
+Zz0iZW4iPg0KICA8RXNyaT4NCiAgICA8Q3JlYURhdGU+MjAxMDAyMTI8L0NyZWFEYXRlPg0KICAg
+IDxDcmVhVGltZT4xMDE1MTEwMDwvQ3JlYVRpbWU+DQogICAgPFN5bmNPbmNlPkZBTFNFPC9TeW5j
+T25jZT4NCiAgICA8U3luY0RhdGU+MjAxNTAzMjA8L1N5bmNEYXRlPg0KICAgIDxTeW5jVGltZT4x
+NjQ5NDgwMDwvU3luY1RpbWU+DQogICAgPE1vZERhdGU+MjAxNTAzMjA8L01vZERhdGU+DQogICAg
+PE1vZFRpbWU+MTY0OTQ4MDA8L01vZFRpbWU+DQogICAgPE1ldGFJRD57RTFCMjE0N0YtM0E0NC00
+RjQyLTgyQTItMUExRTcyODgzOUFBfTwvTWV0YUlEPg0KICAgIDxEYXRhUHJvcGVydGllcz4NCiAg
+ICAgIDxsaW5lYWdlPg0KICAgICAgICA8UHJvY2VzcyBUb29sU291cmNlPSJDOlxQcm9ncmFtIEZp
+bGVzXEFyY0dJU1xEZXNrdG9wMTAuMFxBcmNUb29sYm94XFRvb2xib3hlc1xEYXRhIE1hbmFnZW1l
+bnQgVG9vbHMudGJ4XENhbGN1bGF0ZUZpZWxkIiBEYXRlPSIyMDExMDgwOCIgVGltZT0iMTU0MTAw
+Ij5DYWxjdWxhdGVGaWVsZCAiRkVNQSBGSVJNIEZsb29kIFpvbmVzIiBMYWJlbCBbRkxPT0RfWk9O
+RV0gVkIgIzwvUHJvY2Vzcz4NCiAgICAgICAgPFByb2Nlc3MgVG9vbFNvdXJjZT0iQzpcUHJvZ3Jh
+bSBGaWxlc1xBcmNHSVNcRGVza3RvcDEwLjBcQXJjVG9vbGJveFxUb29sYm94ZXNcRGF0YSBNYW5h
+Z2VtZW50IFRvb2xzLnRieFxDYWxjdWxhdGVGaWVsZCIgRGF0ZT0iMjAxMTA4MDgiIFRpbWU9IjE1
+NDIzNCI+Q2FsY3VsYXRlRmllbGQgIkZFTUEgRklSTSBGbG9vZCBab25lcyIgTGFiZWwgIlgiIFZC
+ICM8L1Byb2Nlc3M+DQogICAgICAgIDxQcm9jZXNzIFRvb2xTb3VyY2U9ImM6XHByb2dyYW0gZmls
+ZXNcYXJjZ2lzXGRlc2t0b3AxMC4xXEFyY1Rvb2xib3hcVG9vbGJveGVzXENvbnZlcnNpb24gVG9v
+bHMudGJ4XEZlYXR1cmVDbGFzc1RvRmVhdHVyZUNsYXNzIiBEYXRlPSIyMDEzMDEyNSIgVGltZT0i
+MTUzNzE2Ij5GZWF0dXJlQ2xhc3NUb0ZlYXR1cmVDbGFzcyAiRGF0YWJhc2UgU2VydmVyc1wxOTIu
+OS4yMDIuMTU0X05FV1RPTkdJUy5nZHNcUHJvdGVjdGVkX0FyZWFzIChWRVJTSU9OOmRiby5ERUZB
+VUxUKVxQcm90ZWN0ZWRfQXJlYXMuREJPLkZFTUFfRklSTV9GbG9vZFpvbmVzIiAiRGF0YWJhc2Ug
+U2VydmVyc1wxOTIuOS4yMDAuNjdfTkVXVE9OR0lTLmdkc1xSZWZlcmVuY2UgKFZFUlNJT046ZGJv
+LkRFRkFVTFQpIiBGRU1BRmxvb2Rab25lcyAjICJGRU1BX0lEICJGRU1BIElEIiB0cnVlIHRydWUg
+ZmFsc2UgOCBEb3VibGUgMCAxMSAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXDE5Mi45LjIwMi4x
+NTRfTkVXVE9OR0lTLmdkc1xQcm90ZWN0ZWRfQXJlYXMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBy
+b3RlY3RlZF9BcmVhcy5EQk8uRkVNQV9GSVJNX0Zsb29kWm9uZXMsRkVNQV9JRCwtMSwtMTtGTE9P
+RF9aT05FICJGbG9vZCBab25lIiB0cnVlIHRydWUgZmFsc2UgNTUgVGV4dCAwIDAgLEZpcnN0LCMs
+RGF0YWJhc2UgU2VydmVyc1wxOTIuOS4yMDIuMTU0X05FV1RPTkdJUy5nZHNcUHJvdGVjdGVkX0Fy
+ZWFzIChWRVJTSU9OOmRiby5ERUZBVUxUKVxQcm90ZWN0ZWRfQXJlYXMuREJPLkZFTUFfRklSTV9G
+bG9vZFpvbmVzLEZMT09EX1pPTkUsLTEsLTE7TGFiZWwgIkxhYmVsIiB0cnVlIHRydWUgZmFsc2Ug
+NCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXDE5Mi45LjIwMi4xNTRfTkVXVE9O
+R0lTLmdkc1xQcm90ZWN0ZWRfQXJlYXMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFByb3RlY3RlZF9B
+cmVhcy5EQk8uRkVNQV9GSVJNX0Zsb29kWm9uZXMsTGFiZWwsLTEsLTEiICM8L1Byb2Nlc3M+DQog
+ICAgICAgIDxQcm9jZXNzIFRvb2xTb3VyY2U9ImM6XHByb2dyYW0gZmlsZXNcYXJjZ2lzXGRlc2t0
+b3AxMC4xXEFyY1Rvb2xib3hcVG9vbGJveGVzXERhdGEgTWFuYWdlbWVudCBUb29scy50YnhcQ29w
+eUZlYXR1cmVzIiBEYXRlPSIyMDEzMDIwNCIgVGltZT0iMTEyNzQxIj5Db3B5RmVhdHVyZXMgIkRh
+dGFiYXNlIFNlcnZlcnNcMTkyLjkuMjAwLjY3X05FV1RPTkdJUy5nZHNcUmVmZXJlbmNlIChWRVJT
+SU9OOmRiby5ERUZBVUxUKVxSZWZlcmVuY2UuREJPLkZFTUFGbG9vZFpvbmVzIiBaOlxHZW9kYXRh
+XFB1YmxpY2F0aW9uLmdkYlxSZWZlcmVuY2VfREJPX0ZFTUFGbG9vZFpvbmVzICMgMCAwIDA8L1By
+b2Nlc3M+DQogICAgICA8L2xpbmVhZ2U+DQogICAgPC9EYXRhUHJvcGVydGllcz4NCiAgPC9Fc3Jp
+Pg0KICA8aWRpbmZvPg0KICAgIDxkZXNjcmlwdD4NCiAgICAgIDxhYnN0cmFjdD5GRU1BIEZsb29k
+IFpvbmVzIGZvciBGbG9vZCBJbnN1cmFuY2UgUmF0ZSBNYXBzIChGSVJNcyk8L2Fic3RyYWN0Pg0K
+ICAgIDwvZGVzY3JpcHQ+DQogICAgPGNpdGF0aW9uPg0KICAgICAgPGNpdGVpbmZvPg0KICAgICAg
+ICA8dGl0bGU+RkVNQSBGbG9vZCBab25lczwvdGl0bGU+DQogICAgICA8L2NpdGVpbmZvPg0KICAg
+IDwvY2l0YXRpb24+DQogIDwvaWRpbmZvPg0KICA8ZWFpbmZvPg0KICAgIDxkZXRhaWxlZCBOYW1l
+PSJGRU1BRmxvb2Rab25lcyI+DQogICAgICA8ZW50dHlwPg0KICAgICAgICA8ZW50dHlwbCBTeW5j
+PSJUUlVFIj5GRU1BRmxvb2Rab25lczwvZW50dHlwbD4NCiAgICAgICAgPGVudHR5cHQgU3luYz0i
+VFJVRSI+RmVhdHVyZSBDbGFzczwvZW50dHlwdD4NCiAgICAgICAgPGVudHR5cGMgU3luYz0iVFJV
+RSI+MTQ3PC9lbnR0eXBjPg0KICAgICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+PGF0dHJsYWJsIFN5bmM9IlRSVUUiPk9CSkVDVElEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFs
+aWFzIFN5bmM9IlRSVUUiPk9CSkVDVElEPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5
+bmM9IlRSVUUiPk9JRDwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj40
+PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0K
+ICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICAgIDxhdHRy
+ZGVmIFN5bmM9IlRSVUUiPkludGVybmFsIGZlYXR1cmUgbnVtYmVyLjwvYXR0cmRlZj4NCiAgICAg
+ICAgPGF0dHJkZWZzIFN5bmM9IlRSVUUiPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRv
+bXY+DQogICAgICAgICAgPHVkb20gU3luYz0iVFJVRSI+U2VxdWVudGlhbCB1bmlxdWUgd2hvbGUg
+bnVtYmVycyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAg
+IDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJs
+YWJsIFN5bmM9IlRSVUUiPkZFTUFfSUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3lu
+Yz0iVFJVRSI+RkVNQSBJRDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVF
+Ij5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0
+d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAg
+ICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAg
+ICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0cmxhYmw+
+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0YWxpYXM+DQogICAgICAg
+IDxhdHRydHlwZSBTeW5jPSJUUlVFIj5HZW9tZXRyeTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3
+aWR0aCBTeW5jPSJUUlVFIj4wPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRS
+VUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2Nh
+bGU+DQogICAgICAgIDxhdHRyZGVmIFN5bmM9IlRSVUUiPkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRy
+ZGVmPg0KICAgICAgICA8YXR0cmRlZnMgU3luYz0iVFJVRSI+RVNSSTwvYXR0cmRlZnM+DQogICAg
+ICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbSBTeW5jPSJUUlVFIj5Db29yZGluYXRlcyBk
+ZWZpbmluZyB0aGUgZmVhdHVyZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAg
+PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5MYWJl
+bDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5MYWJlbDwvYXR0YWxp
+YXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAg
+ICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+NDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNp
+cyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUi
+PjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRy
+bGFibCBTeW5jPSJUUlVFIj5GTE9PRF9aT05FPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFz
+IFN5bmM9IlRSVUUiPkZsb29kIFpvbmU8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3lu
+Yz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+PjU1PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lz
+Pg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0
+dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlNoYXBlX0xl
+bmd0aDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TaGFwZV9MZW5n
+dGg8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRy
+dHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjg8L2F0dHdpZHRoPg0KICAgICAg
+ICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBT
+eW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgICAgPGF0dHJkZWYgU3luYz0iVFJVRSI+TGVu
+Z3RoIG9mIGZlYXR1cmUgaW4gaW50ZXJuYWwgdW5pdHMuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+cmRlZnMgU3luYz0iVFJVRSI+RXNyaTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAg
+ICAgICAgICA8dWRvbSBTeW5jPSJUUlVFIj5Qb3NpdGl2ZSByZWFsIG51bWJlcnMgdGhhdCBhcmUg
+YXV0b21hdGljYWxseSBnZW5lcmF0ZWQuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5T
+aGFwZV9BcmVhPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNoYXBl
+X0FyZWE8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9h
+dHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjg8L2F0dHdpZHRoPg0KICAg
+ICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2Fs
+ZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgICAgPGF0dHJkZWYgU3luYz0iVFJVRSI+
+QXJlYSBvZiBmZWF0dXJlIGluIGludGVybmFsIHVuaXRzIHNxdWFyZWQuPC9hdHRyZGVmPg0KICAg
+ICAgICA8YXR0cmRlZnMgU3luYz0iVFJVRSI+RXNyaTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRy
+ZG9tdj4NCiAgICAgICAgICA8dWRvbSBTeW5jPSJUUlVFIj5Qb3NpdGl2ZSByZWFsIG51bWJlcnMg
+dGhhdCBhcmUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQuPC91ZG9tPg0KICAgICAgICA8L2F0dHJk
+b212Pg0KICAgICAgPC9hdHRyPg0KICAgIDwvZGV0YWlsZWQ+DQogIDwvZWFpbmZvPg0KPC9tZXRh
+ZGF0YT4=</Data></Enclosure></Binary><mdContact><rpIndName>Douglas Greenfield</rpIndName><rpOrgName>City of Newton, MA</rpOrgName><role><RoleCd value="006"/></role><displayName>Douglas Greenfield</displayName></mdContact><dataIdInfo><idCitation><resTitle Sync="TRUE">FEMAFloodZones</resTitle><date><pubDate>2015-03-20T00:00:00</pubDate></date><citRespParty><rpIndName>Douglas Greenfield</rpIndName><rpOrgName>City of Newton, MA</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005" Sync="TRUE"/></presForm></idCitation><dataExt><exDesc>Now</exDesc><tempEle><TempExtent><exTemp><TM_Period><tmBegin>2015-03-20T00:00:00</tmBegin></TM_Period></exTemp></TempExtent></tempEle></dataExt><idPurp>Flood insurance rate determination</idPurp><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;FEMA Flood Zones for Flood Insurance Rate Maps (FIRMs)&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><searchKeys><keyword>flood</keyword></searchKeys><dataChar><CharSetCd value="004"/></dataChar><idStatus><ProgCd value="001"/></idStatus><resMaint><maintFreq><MaintFreqCd value="011"/></maintFreq></resMaint><resConst><LegConsts><useLimit>THE CITY OF NEWTON'S MAPS AND ASSOCIATED DATA ARE PROVIDED WITHOUT WARRANTY OF 
+ANY KIND AS TO THE CONTENT, SEQUENCE, ACCURACY, TIMELINESS OR COMPLETENESS OF 
+ANY OF THE DATABASE INFORMATION. THE CITY OF NEWTON SHALL ASSUME NO LIABILITY FOR: 
+
+  1. ANY ERRORS, OMISSIONS, OR INACCURACIES IN THE INFORMATION PROVIDED 
+     REGARDLESS OF HOW CAUSED; OR 
+
+   2.ANY DECISION MADE OR ACTION TAKEN OR NOT TAKEN IN RELIANCE UPON ANY 
+     INFORMATION OR DATA FURNISHED HEREUNDER.</useLimit></LegConsts></resConst><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"/><countryCode value="USA" Sync="TRUE"/></dataLang><spatRpType><SpatRepTypCd value="001" Sync="TRUE"/></spatRpType><dataExt><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-71.270466</westBL><eastBL Sync="TRUE">-71.167179</eastBL><northBL Sync="TRUE">42.367999</northBL><southBL Sync="TRUE">42.282997</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo><eainfo><detailed Name="FEMAFloodZones" xmlns=""><enttyp><enttypl Sync="TRUE">FEMAFloodZones</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">147</enttypc><enttypd>Flood zones</enttypd><enttypds>City of Newton</enttypds></enttyp><attr xmlns=""><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">FEMA_ID</attrlabl><attalias Sync="TRUE">FEMA_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Identifier from FEMA FIRM digital data</attrdef><attrdefs>City of Newton</attrdefs></attr><attr xmlns=""><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">Label</attrlabl><attalias Sync="TRUE">Label</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Flood Zone code for labeling maps</attrdef><attrdefs>City of Newton</attrdefs><attrdomv><edom><edomv>AE</edomv><edomvd>Special Flood Hazard Area</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>X</edomv><edomvd>0.2 percent annual chance of flooding</edomvd><edomvds>City of Newton</edomvds></edom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">FLOOD_ZONE</attrlabl><attalias Sync="TRUE">FLOOD_ZONE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">55</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Descriptive Flood Zone</attrdef><attrdefs>FEMA</attrdefs></attr></detailed></eainfo><mdLang><languageCode value="eng" Sync="TRUE"/><countryCode value="USA" Sync="TRUE"/></mdLang><distInfo><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.276</transSize></distTranOps></distInfo><mdHrLv><ScopeCd value="005" Sync="TRUE"/></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="2249" Sync="TRUE"/><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.2.6</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="FEMAFloodZones"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"/></geoObjTyp><geoObjCnt Sync="TRUE">147</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"/></topLvl></VectSpatRep></spatRepInfo><spdoinfo><ptvctinf><esriterm Name="FEMAFloodZones"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"/><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">147</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><mdDateSt Sync="TRUE">20150327</mdDateSt><mdChar><CharSetCd value="004" Sync="TRUE"/></mdChar><mdConst><LegConsts xmlns=""><useLimit>THE CITY OF NEWTON'S MAPS AND ASSOCIATED DATA ARE PROVIDED WITHOUT WARRANTY OF 
+ANY KIND AS TO THE CONTENT, SEQUENCE, ACCURACY, TIMELINESS OR COMPLETENESS OF 
+ANY OF THE DATABASE INFORMATION. THE CITY OF NEWTON SHALL ASSUME NO LIABILITY FOR: 
+
+  1. ANY ERRORS, OMISSIONS, OR INACCURACIES IN THE INFORMATION PROVIDED 
+     REGARDLESS OF HOW CAUSED; OR 
+
+   2.ANY DECISION MADE OR ACTION TAKEN OR NOT TAKEN IN RELIANCE UPON ANY 
+     INFORMATION OR DATA FURNISHED HEREUNDER.</useLimit></LegConsts></mdConst><mdMaint xmlns=""><maintFreq><MaintFreqCd value="011"></MaintFreqCd></maintFreq></mdMaint></metadata>
