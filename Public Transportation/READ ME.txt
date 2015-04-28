@@ -1,0 +1,9 @@
+The data covers the entire MBTA Rapid Transit system and the Commuter Rail within a ten mile radius of Newton. The bus lines are for the entire system but the bus stops are just those within Newton. The Newton only file was extracted for better display. For the most current and complete MBTA data see the online MassGIS data:
+
+Bus Routes: http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/mbtabus.html
+Rapid Transit: http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/mbta.html
+Railroads and Commuter Rail: http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/trains.html
+
+Online Data Access: http://maps.massgis.state.ma.us/map_ol/oliver.php
+
+
