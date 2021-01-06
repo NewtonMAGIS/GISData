@@ -1,1 +1,432 @@
-<metadata><Esri><CreaDate>20150512</CreaDate><CreaTime>11020300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20150505</SyncDate><SyncTime>10341800</SyncTime><ModDate>20150512</ModDate><ModTime>11061800</ModTime><DataProperties><itemProps><itemName Sync="TRUE">Streets_Centerline</itemName><nativeExtBox><westBL Sync="TRUE">718915.564067</westBL><eastBL Sync="TRUE">748737.537232</eastBL><southBL Sync="TRUE">2930272.956641</southBL><northBL Sync="TRUE">2958746.814391</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><imsContentType Sync="TRUE" export="False">002</imsContentType></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.3'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,656166.6666666665],PARAMETER[&amp;quot;False_Northing&amp;quot;,2460625.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-71.5],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,41.71666666666667],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.68333333333333],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,41.0],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2249]]&lt;/WKT&gt;&lt;XOrigin&gt;-119851500&lt;/XOrigin&gt;&lt;YOrigin&gt;-94498200&lt;/YOrigin&gt;&lt;XYScale&gt;3048.0060960121914&lt;/XYScale&gt;&lt;ZOrigin&gt;0&lt;/ZOrigin&gt;&lt;ZScale&gt;1&lt;/ZScale&gt;&lt;MOrigin&gt;0&lt;/MOrigin&gt;&lt;MScale&gt;1&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333335&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102686&lt;/WKID&gt;&lt;LatestWKID&gt;2249&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISProfile>ItemDescription</ArcGISProfile><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><scaleRange><minScale>500000</minScale><maxScale>5000</maxScale></scaleRange></Esri><mdLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpIndName>City of Newton, GIS</rpIndName><rpOrgName>City of Newton</rpOrgName><rpPosName>GIS Administrator</rpPosName><rpCntInfo><cntPhone><voiceNum>617-796-1184</voiceNum><faxNum>617-796-1196</faxNum></cntPhone><cntAddress addressType="both"><delPoint>1000 Commonwealth Ave</delPoint><city>Newton</city><adminArea>MA</adminArea><postCode>02459</postCode><country>US</country><eMailAdd>gisinfo@newtonma.gov</eMailAdd></cntAddress><cntHours>M-F 9-5</cntHours></rpCntInfo><role><RoleCd value="005"/></role></distorCont><distorOrdPrc><resFees>$50 Land Base CD $100 Full Data Set $50/hour custom data</resFees><ordInstr>Contact Engineering Dept @ 617-796-1120</ordInstr><ordTurn>2-3 days</ordTurn></distorOrdPrc></distributor><distFormat><formatVer>10.1</formatVer><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distFormat></distInfo><dataIdInfo><idCitation><resTitle Sync="FALSE">Street Center Lines</resTitle><citRespParty xmlns=""><rpOrgName>City of Newton, Mass.</rpOrgName><role><RoleCd value="006"/></role><rpIndName>City of Newton, GIS</rpIndName><rpCntInfo xmlns=""><cntAddress addressType="both"><delPoint>1000 Commonwealth Ave</delPoint><city>Newton</city><adminArea>MA</adminArea><postCode>02459</postCode><eMailAdd>gisinfo@newtonma.gov</eMailAdd><country>US</country></cntAddress><cntPhone><voiceNum tddtty="">617-796-1180</voiceNum></cntPhone></rpCntInfo></citRespParty><date><pubDate>1994-01-01T00:00:00</pubDate><reviseDate>2013-08-13T00:00:00</reviseDate></date><presForm><PresFormCd value="005" Sync="TRUE"/></presForm></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Street Center Lines - Newton, Massachusetts&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>Base Mapping, Addressing, Public Works</idPurp><idStatus><ProgCd value="001"/></idStatus><resMaint><maintFreq><MaintFreqCd value="009"/></maintFreq></resMaint><placeKeys xmlns=""><keyword>Newton</keyword><keyword>USA</keyword><keyword>Massachusetts</keyword></placeKeys><themeKeys xmlns=""><thesaName><resTitle>OGC</resTitle></thesaName><keyword>Streets</keyword><keyword>Address</keyword></themeKeys><searchKeys><keyword>Newton</keyword><keyword>USA</keyword><keyword>Streets</keyword><keyword>Address</keyword><keyword>Massachusetts</keyword></searchKeys><resConst><SecConsts><class><ClasscationCd value="001"/></class><classSys>None</classSys><handDesc>None</handDesc></SecConsts><Consts><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;DIV STYLE="font-size:12pt"&gt;&lt;P&gt;&lt;SPAN&gt;THE CITY OF NEWTON'S MAPS AND ASSOCIATED DATA ARE PROVIDED WITHOUT WARRANTY OF &lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;ANY KIND AS TO THE CONTENT, SEQUENCE, ACCURACY, TIMELINESS OR COMPLETENESS OF &lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;ANY OF THE DATABASE INFORMATION. THE CITY OF NEWTON SHALL ASSUME NO LIABILITY FOR: &lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;1. ANY ERRORS, OMISSIONS, OR INACCURACIES IN THE INFORMATION PROVIDED &lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;REGARDLESS OF HOW CAUSED; OR &lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;2.ANY DECISION MADE OR ACTION TAKEN OR NOT TAKEN IN RELIANCE UPON ANY &lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;INFORMATION OR DATA FURNISHED HEREUNDER.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><aggrInfo><aggrDSName><citRespParty><rpOrgName>City of Newton, Massachusetts</rpOrgName><rpCntInfo><cntAddress><delPoint>Newton, Massachusetts USA</delPoint></cntAddress></rpCntInfo><role><RoleCd value="010"/></role></citRespParty><citRespParty><rpOrgName>City of Newton, Massachusetts</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm></aggrDSName><assocType><AscTypeCd value="001"/></assocType></aggrInfo><dataLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></dataLang><dataExt><exDesc>publication date</exDesc><geoEle><GeoBndBox><exTypeCode>1</exTypeCode><westBL>-71.268016</westBL><eastBL>-71.157096</eastBL><southBL>42.287976</southBL><northBL>42.366912</northBL></GeoBndBox></geoEle></dataExt><dataExt><exDesc>Currency</exDesc><tempEle><TempExtent><exTemp><TM_Period><tmBegin>1994-01-01T00:00:00</tmBegin></TM_Period></exTemp></TempExtent></tempEle></dataExt><resConst><LegConsts><useLimit>None</useLimit></LegConsts></resConst><dataChar><CharSetCd value="004"/></dataChar><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.0.4322</envirDesc><spatRpType><SpatRepTypCd value="001" Sync="TRUE"/></spatRpType><dataExt><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-71.268093</westBL><eastBL Sync="TRUE">-71.157456</eastBL><northBL Sync="TRUE">42.366718</northBL><southBL Sync="TRUE">42.288309</southBL></GeoBndBox></geoEle></dataExt><idPoC xmlns=""><rpOrgName>City of Newton, Mass.</rpOrgName><role><RoleCd value="006"/></role><rpIndName>City of Newton, GIS</rpIndName><rpCntInfo xmlns=""><cntAddress addressType="both"><delPoint>1000 Commonwealth Ave</delPoint><city>Newton</city><adminArea>MA</adminArea><postCode>02459</postCode><eMailAdd>gisinfo@newtonma.gov</eMailAdd><country>US</country></cntAddress><cntPhone><voiceNum tddtty="">617-796-1180</voiceNum></cntPhone></rpCntInfo><displayName>City of Newton, GIS</displayName></idPoC><tpCat><TopicCatCd value="018"/></tpCat></dataIdInfo><mdMaint xmlns=""><maintFreq><MaintFreqCd value="010"/></maintFreq></mdMaint><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQQuanAttAcc" dimension="horizontal"><measDesc>The City of Newton cannot guarantee the accuracy of this information. Each user of this map is responsible for determining its suitability for his or her intended purpose. City departments will not necessarily approve applicat- ions based solely on GIS data. Applicants for city permits must inquire of the relevant city department for applicable requirements. City staff correct errors as they are identified. Newton's GIS Admini- strator maintains records regarding the source materials and methods used to create the digital data and will disclose this information upon request.</measDesc><measId><identCode>?</identCode></measId><evalMethDesc>QA</evalMethDesc><evalMethType><EvalMethTypeCd value="001"/></evalMethType><evalProc><date><createDate>1994-01-01T00:00:00</createDate><pubDate>1994-01-01T00:00:00</pubDate><reviseDate>2013-08-13T00:00:00</reviseDate></date></evalProc></report><report type="DQAbsExtPosAcc" dimension="horizontal"><measDesc>The City of Newton makes no guarantees about the accuracy of its data. However, most data layers line up very well with the various orthophotographs. These photos generally have an accuracy specification of +/- 2.5 feet. Therefore most of Newton's data is close to this accuracy figure.</measDesc></report><dataLineage><dataSource><srcCitatn><resTitle>Street Centerlines</resTitle><citRespParty><rpOrgName>City of Newton, Massachusetts</rpOrgName><role><RoleCd value="006"/></role></citRespParty></srcCitatn><srcExt><exDesc>publication date</exDesc></srcExt></dataSource><prcStep><stepDesc>Digitized from parcels and orthophotography</stepDesc><stepProc><rpIndName>City of Newton, GIS</rpIndName><rpOrgName>City of Newton</rpOrgName><rpPosName>GIS Administartor</rpPosName><rpCntInfo><cntPhone><voiceNum>617-796-1184</voiceNum><faxNum>617-796-1196</faxNum></cntPhone><cntAddress addressType="both"><delPoint>1000 Commonwealth Avenue</delPoint><city>Newton</city><adminArea>MA</adminArea><postCode>02459</postCode><country>US</country><eMailAdd>gisinfo@newtonma.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="009"/></role></stepProc><stepDateTm>1994-01-01T00:00:00</stepDateTm><stepProc><rpIndName>City of Newton, GIS</rpIndName><rpOrgName>City of Newton, Mass.</rpOrgName><rpPosName>GIS Administrator</rpPosName><rpCntInfo><cntPhone><voiceNum>617 796-1180</voiceNum><faxNum>617 796-1196</faxNum></cntPhone><cntAddress addressType="both"><delPoint>1000 Commonwealth Avenue</delPoint><city>Newton</city><adminArea>Massachusetts</adminArea><postCode>02459</postCode><country>US</country><eMailAdd>gisinfo@newtonma.gov</eMailAdd></cntAddress><cntHours>M-F 9AM-5PM EST</cntHours></rpCntInfo><role><RoleCd value="007"/></role><displayName>City of Newton, GIS</displayName></stepProc></prcStep></dataLineage></dqInfo><eainfo><detailed Name="Streets_Centerline" xmlns=""><enttyp><enttypl Sync="FALSE">Street Center Lines</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">4705</enttypc><enttypd>Center line of streets</enttypd><enttypds>City of Newton</enttypds></enttyp><attr xmlns=""><attrlabl>OBJECTID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr xmlns=""><attrlabl>Name</attrlabl><attrdef>Street Name</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr xmlns=""><attrlabl Sync="TRUE">DPW_ID</attrlabl><attalias Sync="TRUE">DPW_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>DPW unique street segment identifier</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq></attr><attr xmlns=""><attrlabl Sync="TRUE">LF</attrlabl><attalias Sync="TRUE">Left From Address</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Left Side From (Low) Addresss</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq><attrdomv><rdom><rdommin>0</rdommin><rdommax>2500</rdommax></rdom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">LT</attrlabl><attalias Sync="TRUE">Left To Address</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Left Side To (High) Address</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq><attrdomv><rdom><rdommin>0</rdommin><rdommax>2500</rdommax></rdom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">RF</attrlabl><attalias Sync="TRUE">Right From Address</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Right Side From (Low) Address</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq><attrdomv><rdom><rdommin>0</rdommin><rdommax>2500</rdommax></rdom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">RT</attrlabl><attalias Sync="TRUE">Right To Address</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Right Side To (High) Address</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq><attrdomv><rdom><rdommin>0</rdommin><rdommax>2500</rdommax></rdom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">TRUCK_EXCL</attrlabl><attalias Sync="TRUE">Truck Exclusion</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Truck Exclusion Code</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq><attrdomv><edom><edomv>L</edomv><edomvd>Truck Exclusion-Limited Time Period</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>N</edomv><edomvd>No exclusions</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>Y</edomv><edomvd>Trucks excluded</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>U</edomv><edomvd>Unofficial Local Truck Exclusion-not accepted by State</edomvd><edomvds>City of Newton</edomvds></edom></attrdomv></attr><attr xmlns=""><attrlabl Sync="TRUE">ONEWAY</attrlabl><attalias Sync="TRUE">One Way Code</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv><edom><edomv>R</edomv><edomvd>Highway Ramp</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>0</edomv><edomvd>No vehicular access</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>FT</edomv><edomvd>One way street (from node-to node)</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>LT</edomv><edomvd>One way during limited hours</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>DV</edomv><edomvd>One way section of divided highway</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>B</edomv><edomvd>Two way street</edomvd><edomvds>City of Newton</edomvds></edom></attrdomv><attrdef>One Way Code</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq></attr><attr xmlns=""><attrlabl>Type</attrlabl><attrdef>Street Classs</attrdef><attrdefs>City of Newton</attrdefs><attrdomv><edom><edomv>Abandoned</edomv><edomvd>Abandoned Roadway</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>Highway Ramp</edomv><edomvd>Highway Ramp</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>Interstate</edomv><edomvd>US Interstate Highway</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>Minor</edomv><edomvd>Residential street</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>Major</edomv><edomvd>Major artery</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>Paper</edomv><edomvd>Paper (un-built) street</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>Private-Paper</edomv><edomvd>Private unbuilt street</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>Private</edomv><edomvd>Private street</edomvd><edomvds>City of Newton</edomvds></edom><edom><edomv>ROW</edomv><edomvd>Right of Way-no vehicular access</edomvd><edomvds>City of Newton</edomvds></edom></attrdomv><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq><attalias Sync="TRUE">Street Class</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr xmlns=""><attrlabl Sync="TRUE">FROM_ST</attrlabl><attalias Sync="TRUE">From</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">45</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Street name at beginning of segment</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq></attr><attr xmlns=""><attrlabl Sync="TRUE">TO_ST</attrlabl><attalias Sync="TRUE">To</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">45</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Street name at end of segment</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq></attr><attr xmlns=""><attrlabl Sync="TRUE">SnowRoute</attrlabl><attalias Sync="TRUE">Snow Plowing Route</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Snow plowing route</attrdef><attrdefs>City of Newton</attrdefs><attrvai><attrva>Good</attrva></attrvai><attrmfrq>As needed</attrmfrq></attr><attr xmlns=""><attrlabl Sync="TRUE">GlobalID</attrlabl><attalias Sync="TRUE">GlobalID</attalias><attrtype Sync="TRUE">GlobalID</attrtype><attwidth Sync="TRUE">38</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Global identifier</attrdef><attrdefs>ESRI</attrdefs></attr><attr xmlns=""><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr xmlns=""><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed></eainfo><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="2249" Sync="TRUE"/><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.2.6</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Streets_Centerline"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"/></geoObjTyp><geoObjCnt Sync="TRUE">4705</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"/></topLvl></VectSpatRep></spatRepInfo><spdoinfo><ptvctinf><esriterm Name="Streets_Centerline"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"/><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">4705</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><mdDateSt Sync="TRUE">20150512</mdDateSt><mdContact xmlns=""><rpOrgName>City of Newton, Mass.</rpOrgName><role><RoleCd value="006"/></role><rpIndName>City of Newton, GIS</rpIndName><rpCntInfo xmlns=""><cntAddress addressType="both"><delPoint>1000 Commonwealth Ave</delPoint><city>Newton</city><adminArea>MA</adminArea><postCode>02459</postCode><eMailAdd>gisinfo@newtonma.gov</eMailAdd><country>US</country></cntAddress><cntPhone><voiceNum tddtty="">617-796-1180</voiceNum></cntPhone></rpCntInfo><displayName>City of Newton, GIS</displayName></mdContact></metadata>
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>City of Newton, Mass., City of Newton, GIS</origin>
+<pubdate>19940101</pubdate>
+<title>Street Center Lines</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Street Center Lines - Newton, Massachusetts</abstract>
+<purpose>Base Mapping, Addressing, Public Works</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19940101</begdate>
+</rngdates>
+</timeinfo>
+<current>Currency</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-71.268093</westbc>
+<eastbc>-71.157456</eastbc>
+<northbc>42.366718</northbc>
+<southbc>42.288309</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>OGC</themekt>
+<themekey>Streets</themekey>
+<themekey>Address</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Categories</themekt>
+<themekey>transportation</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Newton</placekey>
+<placekey>USA</placekey>
+<placekey>Massachusetts</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>THE CITY OF NEWTON'S MAPS AND ASSOCIATED DATA ARE PROVIDED WITHOUT WARRANTY OF ANY KIND AS TO THE CONTENT, SEQUENCE, ACCURACY, TIMELINESS OR COMPLETENESS OF ANY OF THE DATABASE INFORMATION. THE CITY OF NEWTON SHALL ASSUME NO LIABILITY FOR: 1. ANY ERRORS, OMISSIONS, OR INACCURACIES IN THE INFORMATION PROVIDED REGARDLESS OF HOW CAUSED; OR 2.ANY DECISION MADE OR ACTION TAKEN OR NOT TAKEN IN RELIANCE UPON ANY INFORMATION OR DATA FURNISHED HEREUNDER.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Newton, Department of Information Technology</cntorg>
+<cntper>Douglas Greenfield</cntper>
+</cntorgp>
+<cntpos>GIS Administrator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1000 Commonwealth Avenue</address>
+<city>Newton</city>
+<state>MA</state>
+<postal>02459</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>6177961184</cntvoice>
+<cntfax>6177961196</cntfax>
+<cntemail>dgreenfield@newtonma.gov</cntemail>
+<hours>M-F 8:30 AM - 5:00 PM</hours>
+</cntinfo>
+</ptcontac>
+<secinfo>
+<secsys>None</secsys>
+<secclass>Unclassified</secclass>
+<sechandl>None</sechandl>
+</secinfo>
+<native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+<crossref>
+<citeinfo>
+<origin>City of Newton, Massachusetts</origin>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Newton, Massachusetts USA</pubplace>
+<publish>City of Newton, Massachusetts</publish>
+</pubinfo>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>The City of Newton cannot guarantee the accuracy of this information. Each user of this map is responsible for determining its suitability for his or her intended purpose. City departments will not necessarily approve applicat- ions based solely on GIS data. Applicants for city permits must inquire of the relevant city department for applicable requirements. City staff correct errors as they are identified. Newton's GIS Admini- strator maintains records regarding the source materials and methods used to create the digital data and will disclose this information upon request.</attraccr>
+<qattracc>
+<attracce>QA</attracce>
+</qattracc>
+</attracc>
+<posacc>
+<horizpa>
+<horizpar>The City of Newton makes no guarantees about the accuracy of its data. However, most data layers line up very well with the various orthophotographs. These photos generally have an accuracy specification of +/- 2.5 feet. Therefore most of Newton's data is close to this accuracy figure.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>City of Newton, Massachusetts</origin>
+<title>Street Centerlines</title>
+</citeinfo>
+</srccite>
+<typesrc>None</typesrc>
+<srccitea>Street Centerlines</srccitea>
+</srcinfo>
+<procstep>
+<procdesc>Digitized from parcels and orthophotography</procdesc>
+<procdate>19940101</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Newton</cntorg>
+<cntper>Douglas Greenfield</cntper>
+</cntorgp>
+<cntpos>GIS Administartor</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1000 Commonwealth Avenue</address>
+<city>Newton</city>
+<state>MA</state>
+<postal>02459</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>617-796-1184</cntvoice>
+<cntfax>617-796-1196</cntfax>
+<cntemail>dgreenfield@newtonma.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>String</sdtstype>
+<ptvctcnt>4766</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Street Center Lines</enttypl>
+<enttypd>Center line of streets</enttypd>
+<enttypds>City of Newton</enttypds>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Name</attrlabl>
+<attrdef>Street Name</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>DPW_ID</attrlabl>
+<attrdef>DPW unique street segment identifier</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>LF</attrlabl>
+<attrdef>Left Side From (Low) Addresss</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>2500</rdommax>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>LT</attrlabl>
+<attrdef>Left Side To (High) Address</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>2500</rdommax>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>RF</attrlabl>
+<attrdef>Right Side From (Low) Address</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>2500</rdommax>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>RT</attrlabl>
+<attrdef>Right Side To (High) Address</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>2500</rdommax>
+</rdom>
+</attrdomv>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>ONEWAY</attrlabl>
+<attrdef>One Way Code</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>Type</attrlabl>
+<attrdef>Street Classs</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Abandoned</edomv>
+<edomvd>Abandoned Roadway</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+<edom>
+<edomv>Highway Ramp</edomv>
+<edomvd>Highway Ramp</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+<edom>
+<edomv>Interstate</edomv>
+<edomvd>US Interstate Highway</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+<edom>
+<edomv>Minor</edomv>
+<edomvd>Residential street</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+<edom>
+<edomv>Major</edomv>
+<edomvd>Major artery</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+<edom>
+<edomv>Paper</edomv>
+<edomvd>Paper (un-built) street</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+<edom>
+<edomv>Private-Paper</edomv>
+<edomvd>Private unbuilt street</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+<edom>
+<edomv>Private</edomv>
+<edomvd>Private street</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+<edom>
+<edomv>ROW</edomv>
+<edomvd>Right of Way-no vehicular access</edomvd>
+<edomvds>City of Newton</edomvds>
+</edom>
+</attrdomv>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>FROM_ST</attrlabl>
+<attrdef>Street name at beginning of segment</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>TO_ST</attrlabl>
+<attrdef>Street name at end of segment</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>SnowRoute</attrlabl>
+<attrdef>Snow plowing route</attrdef>
+<attrdefs>City of Newton</attrdefs>
+<attrvai>
+<attrva>Good</attrva>
+</attrvai>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>GlobalID</attrlabl>
+<attrdef>Global identifier</attrdef>
+<attrdefs>ESRI</attrdefs>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape_Length</attrlabl>
+<attrdef>Length of feature in internal units.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>StreetID</attrlabl>
+<attrdef>Street ID Number</attrdef>
+<attrdefs>City of Newton</attrdefs>
+</attr>
+<attr>
+<attrlabl>Segment</attrlabl>
+<attrdef>Street segment</attrdef>
+<attrdefs>City of Newton</attrdefs>
+</attr>
+<attr>
+<attrlabl>Segment_ID</attrlabl>
+<attrdef>Unique identifier based on street plus segment separated by a dash</attrdef>
+<attrdefs>City of Newton</attrdefs>
+</attr>
+<attr>
+<attrlabl>Complete_SegID</attrlabl>
+<attrdef>Segment identifier to link to complete streets database</attrdef>
+<attrdefs>City of Newton</attrdefs>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Newton</cntorg>
+<cntper>Douglas Greenfield</cntper>
+</cntorgp>
+<cntpos>GIS Administrator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1000 Commonwealth Ave</address>
+<city>Newton</city>
+<state>MA</state>
+<postal>02459</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>617-796-1184</cntvoice>
+<cntfax>617-796-1196</cntfax>
+<cntemail>dgreenfield@newtonma.gov</cntemail>
+<hours>M-F 9-5</hours>
+</cntinfo>
+</distrib>
+<distliab>None</distliab>
+<stdorder>
+<fees>$50 Land Base CD $100 Full Data Set $50/hour custom data</fees>
+<ordering>Contact Engineering Dept @ 617-796-1120</ordering>
+<turnarnd>2-3 days</turnarnd>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20210106</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Newton, Mass.</cntorg>
+<cntper>City of Newton, GIS</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1000 Commonwealth Ave</address>
+<city>Newton</city>
+<state>MA</state>
+<postal>02459</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>617-796-1180</cntvoice>
+<cntemail>gisinfo@newtonma.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
