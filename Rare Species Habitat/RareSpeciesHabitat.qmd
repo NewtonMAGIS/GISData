@@ -1,0 +1,80 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.20.1-Odense">
+  <identifier>RareSpeciesHabitat</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>NHESP Priority and Estimated Habitats of Rare Species</title>
+  <abstract>Estimated and Primary Habitat of Rare Speices. These two layers from the NHESP weer combined for simplicity and a "Type" field was added to distinguish them. The Priority Habitats of Rare Species datalayer contains polygons representing the geographic extent of Habitat of state-listed rare species in Massachusetts based on observations documented within the last 25 years in the database of the Natural Heritage &amp; Endangered Species Program (NHESP). Priority Habitats are the filing trigger for proponents, municipalities, and other stakeholders for determining whether or not a proposed project must be reviewed by the NHESP for compliance with the Massachusetts Endangered Species Act (MESA). The Priority Habitats presented here are those published in the 12th Edition of the Massachusetts Natural Heritage Atlas, and are effective beginning October 1, 2006. In July, 2005 major revisions were made to the MESA regulations (321 CMR 10.00). These revised regulations clarify filing requirements and procedures, set timelines for agency response, establish filing fees, expand and add definitions, and formalize the appeal process for agency decisions. If your project or activity falls within Priority Habitat and does not meet a MESA filing exemption (321 CMR 10.14), then you must file directly with the NHESP pursuant to MESA. For more information, please see the Regulatory Review section of the NHESP website. Estimated Habitats are for use with the Wetlands Protection Act regulations (310 CMR 10.00). The Estimated Habitats of Rare Wildlife datalayer contains polygons that are a subset of the Priority Habitats of Rare Species. They are based on occurrences of rare wetland wildlife observed within the last 25 years and documented in the NHESP database. They do not include those areas delineated for rare plants or for rare wildlife with strictly upland habitat requirements. The Estimated Habitats presented here are those published in the 13th Edition of the Massachusetts Natural Heritage Atlas, and are effective beginning October 1, 2008.
+
+Planning and analysis
+
+Estimated and Primary Habitat of Rare Speices. These two layers from the NHESP weer combined for simplicity and a "Type" field was added to distinguish them. The Priority Habitats of Rare Species datalayer contains polygons representing the geographic extent of Habitat of state-listed rare species in Massachusetts based on observations documented within the last 25 years in the database of the Natural Heritage &amp; Endangered Species Program (NHESP). Priority Habitats are the filing trigger for proponents, municipalities, and other stakeholders for determining whether or not a proposed project must be reviewed by the NHESP for compliance with the Massachusetts Endangered Species Act (MESA). The Priority Habitats presented here are those published in the 12th Edition of the Massachusetts Natural Heritage Atlas, and are effective beginning October 1, 2006. In July, 2005 major revisions were made to the MESA regulations (321 CMR 10.00). These revised regulations clarify filing requirements and procedures, set timelines for agency response, establish filing fees, expand and add definitions, and formalize the appeal process for agency decisions. If your project or activity falls within Priority Habitat and does not meet a MESA filing exemption (321 CMR 10.14), then you must file directly with the NHESP pursuant to MESA. For more information, please see the Regulatory Review section of the NHESP website. Estimated Habitats are for use with the Wetlands Protection Act regulations (310 CMR 10.00). The Estimated Habitats of Rare Wildlife datalayer contains polygons that are a subset of the Priority Habitats of Rare Species. They are based on occurrences of rare wetland wildlife observed within the last 25 years and documented in the NHESP database. They do not include those areas delineated for rare plants or for rare wildlife with strictly upland habitat requirements. The Estimated Habitats presented here are those published in the 13th Edition of the Massachusetts Natural Heritage Atlas, and are effective beginning October 1, 2008.
+
+Planning and analysis</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>NHESP Priority Habitats of Rare Species</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>NHESP Priority Habitats of Rare Species</keyword>
+    <keyword>NHESP Priority Habitats of Rare Species</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>postal</type>
+      <address>251 Causeway Street</address>
+      <city>Boston</city>
+      <administrativearea>MA</administrativearea>
+      <postalcode>02114</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>Michael Trust</name>
+    <organization>EOEA - MassGIS</organization>
+    <position>Sr. Database Administrator</position>
+    <voice>(617) 626-1000</voice>
+    <fax></fax>
+    <email>michael.trust@state.ma.us</email>
+    <role>Point of contact</role>
+  </contact>
+  <contact>
+    <contactAddress>
+      <type>mailing address</type>
+      <address>North Drive
+Suite 500</address>
+      <city>Westborough</city>
+      <administrativearea>MA</administrativearea>
+      <postalcode>01581</postalcode>
+      <country>USA</country>
+    </contactAddress>
+    <name>Natural Heritage &amp; Endangered Species Program</name>
+    <organization>Natural Heritage &amp; Endangered Species Program</organization>
+    <position></position>
+    <voice>508-792-7270 ext.161</voice>
+    <fax>(508) 792-7821</fax>
+    <email>David.Szczebak@state.ma.us</email>
+    <role>Point of contact</role>
+  </contact>
+  <links/>
+  <history>Data source: See the "Abstract" section of this document for details.</history>
+  <fees></fees>
+  <constraints type="Limitations of use">Priority Habitats should be displayed as follows: - At 1:25,000 scale or smaller (e.g. 1:35,000), as this is the scale at which the polygons were delineated. - Against MassGIS's 2001 Color Orthophotos as a reference layer. - Using the "NHESP Priority Habitats for Rare Species" legend, which MUST accompany this datalayer on ALL maps. - NOTE: the following 12 towns contain Priority Habitats that are less than 1 acre in size. To effectively display these small areas, the line thickness of the polygon may need to be increased: Barnstable, Middleborough, Chicopee, Royalston, Dartmouth, Sandwich, Duxbury, Scituate, Fairhaven, Sheffield, Great Barrington, Williamstown</constraints>
+  <constraints type="Access">Please read the "NHESP Layers Disclaimer", found at http://www.mass.gov/mgis/nh-disc.htm, before using the data.</constraints>
+  <rights>Priority Habitats should be displayed as follows: - At 1:25,000 scale or smaller (e.g. 1:35,000), as this is the scale at which the polygons were delineated. - Against MassGIS's 2001 Color Orthophotos as a reference layer. - Using the "NHESP Priority Habitats for Rare Species" legend, which MUST accompany this datalayer on ALL maps. - NOTE: the following 12 towns contain Priority Habitats that are less than 1 acre in size. To effectively display these small areas, the line thickness of the polygon may need to be increased: Barnstable, Middleborough, Chicopee, Royalston, Dartmouth, Sandwich, Duxbury, Scituate, Fairhaven, Sheffield, Great Barrington, Williamstown </rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt>PROJCRS["NAD83 / Massachusetts Mainland (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["SPCS83 Massachusetts Mainland zone (US Survey feet)",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",41,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-71.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",42.6833333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",41.7166666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",656166.667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8826]],PARAMETER["Northing at false origin",2460625,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United States (USA) - Massachusetts onshore - counties of Barnstable; Berkshire; Bristol; Essex; Franklin; Hampden; Hampshire; Middlesex; Norfolk; Plymouth; Suffolk; Worcester."],BBOX[41.46,-73.5,42.89,-69.86]],ID["EPSG",2249]]</wkt>
+      <proj4>+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=42.6833333333333 +lat_2=41.7166666666667 +x_0=200000.0001016 +y_0=750000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+      <srsid>231</srsid>
+      <srid>2249</srid>
+      <authid>EPSG:2249</authid>
+      <description>NAD83 / Massachusetts Mainland (ftUS)</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" minz="0" maxy="0" miny="0" crs="EPSG:2249" maxx="0" maxz="0" minx="0"/>
+  </extent>
+</qgis>
