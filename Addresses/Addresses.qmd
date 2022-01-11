@@ -54,7 +54,7 @@ INFORMATION OR DATA FURNISHED HEREUNDER.</constraints>
     </spatialrefsys>
   </crs>
   <extent>
-    <spatial minx="-71.26620599999999683" dimensions="2" maxz="0" crs="EPSG:2249" minz="0" maxx="-71.15744700000000478" miny="42.28801200000000193" maxy="42.36671799999999877"/>
+    <spatial crs="EPSG:2249" minx="-71.26620599999999683" maxx="-71.15744700000000478" miny="42.28801200000000193" minz="0" dimensions="2" maxy="42.36671799999999877" maxz="0"/>
     <temporal>
       <period>
         <start>1995-01-01T05:00:00Z</start>
