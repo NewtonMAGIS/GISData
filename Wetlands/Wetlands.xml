@@ -1,153 +1,138 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <title>Wetlands</title>
-        <geoform>vector digital data</geoform>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The DEP Wetlands datalayer comprises two feature types, polygons and arcs (lines). The attribute codes in the polygon layer describe different types of wetland environments and the arc attributes describe line types based on adjacent polygon types or arcs defined as hydrologic connections. The wetlands are interpreted from 1:12,000 scale, stereo color-infrared photography (CIR) by staff at UMASS Amherst. The interpretation is field checked by Department of Environmental Protection (DEP) Wetlands Conservancy Program (WCP). Completed interpretations are then scanned and converted into rectified polygons and lines using standard photogrametric techniques by a consultant under contract to the WCP. Final quality control is performed by WCP GIS staff. The polygons and arcs are merged into a single layer (in coverage format) and additional attributes are added for the polygon features. The arc features are coded based on the adjacent polygon types, and attributes are added to the annotation subclass wet. An overlay process using the 1:25,000 Hydrography layer codes the PALIS_ID and PWSID attributes. The coding of the PALIS_ID and PWSID attributes was done using an overlay process and was not subject to the same quality control as the 1:25,000 Hydrography layer. Areas of wetlands in this layer may be shown as open water in the 1:25,000 Hydrography layer and so the coding of the PALIS_ID would not occur. Lines represented in the old 1:5,000 Streams layer are shown in this layer as hydrologic connections. These lines are only defined where they connect the various wetland types. These connections were not delineated within wetland areas, nor does they depict a complete stream network outside of wetland areas. Because the source scale of the CIR's is 1:12,000, plotting of open water features at a larger scale when overlaid onto existing 1:5,000 imagery will reveal areas of open water that are not delineated as such. It should be noted that the resulting wetlands shown in this datalayer are for planning purposes only. Wetlands boundary determination for other purposes, such as the Wetlands Protection Act MA Act M.G.L. c. 131 or local by-laws, must use the relevant procedures and criteria.</abstract>
-      <purpose>Planning and analysis</purpose>
-    </descript>
-    <spdom>
-      <bounding>
-        <westbc>-71.270795</westbc>
-        <eastbc>-71.158360</eastbc>
-        <northbc>42.373789</northbc>
-        <southbc>42.270458</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>wetlands swamps marshes marsh bogs water features ponds lakes hydrography hydrology hydrologic</themekey>
-      </theme>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5686</native>
-  </idinfo>
-  <spdoinfo>
-    <direct>Vector</direct>
-    <ptvctinf>
-      <sdtsterm>
-        <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>215</ptvctcnt>
-      </sdtsterm>
-    </ptvctinf>
-  </spdoinfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <mapproj>
-          <mapprojn>NAD 1983 StatePlane Massachusetts Mainland FIPS 2001</mapprojn>
-          <lambertc>
-            <stdparll>41.71666666666667</stdparll>
-            <stdparll>42.68333333333333</stdparll>
-            <longcm>-71.5</longcm>
-            <latprjo>41.0</latprjo>
-            <feast>200000.0</feast>
-            <fnorth>750000.0</fnorth>
-          </lambertc>
-        </mapproj>
-        <planci>
-          <plance>coordinate pair</plance>
-          <coordrep>
-            <absres>0.000000008155898179040834</absres>
-            <ordres>0.000000008155898179040834</ordres>
-          </coordrep>
-          <plandu>meter</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>D North American 1983</horizdn>
-        <ellips>GRS 1980</ellips>
-        <semiaxis>6378137.0</semiaxis>
-        <denflat>298.257222101</denflat>
-      </geodetic>
-    </horizsys>
-  </spref>
-  <eainfo>
-    <detailed>
-      <enttyp>
-        <enttypl>Wetlands</enttypl>
-      </enttyp>
-      <attr>
-        <attrlabl>OBJECTID</attrlabl>
-        <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Sequential unique whole numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>BoundarySource</attrlabl>
-        <attrdef>Source of boundaries</attrdef>
-        <attrdefs>City of Newton</attrdefs>
-        <attrdomv>
-          <edom>
-            <edomv>LiDAR</edomv>
-            <edomvd>LiDAR generated elevations</edomvd>
-            <edomvds>City of Newton</edomvds>
-          </edom>
-          <edom>
-            <edomv>Ortho</edomv>
-            <edomvd>Aerial Photography</edomvd>
-            <edomvds>City of Newton</edomvds>
-          </edom>
-          <edom>
-            <edomv>Combo</edomv>
-            <edomvd>LiDAR and aerial photography</edomvd>
-            <edomvds>City of Newton</edomvds>
-          </edom>
-          <edom>
-            <edomv>Site</edomv>
-            <edomvd>Site visit-flagged</edomvd>
-            <edomvds>City of Newton</edomvds>
-          </edom>
-          <edom>
-            <edomv>State</edomv>
-            <edomvd>Mass DEP Wetlands layer</edomvd>
-            <edomvds>City of Newton</edomvds>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Name</attrlabl>
-        <attrdef>Name of wetland</attrdef>
-        <attrdefs>City of Newton</attrdefs>
-      </attr>
-      <attr>
-        <attrlabl>Type</attrlabl>
-        <attrdef>Type of wetland</attrdef>
-        <attrdefs>City of Newton</attrdefs>
-      </attr>
-    </detailed>
-  </eainfo>
-  <distinfo>
-    <distliab>See access and use constraints information.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>SDE Feature Class</formname>
-        </digtinfo>
-        <digtopt />
-      </digform>
-    </stdorder>
-  </distinfo>
-  <metainfo>
-    <metd>20180405</metd>
-    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-    <metstdv>FGDC-STD-001-1998</metstdv>
-    <mettc>local time</mettc>
-  </metainfo>
-</metadata>
+<metadata><idinfo><citation><citeinfo><origin>MA Dept. of Environmental Protection</origin><pubdate>20070101</pubdate><title>Wetlands</title><geoform Sync="TRUE">vector digital data</geoform><othercit>Substantially complete statewide
+small area in Ayer/Leominster to finish</othercit><onlink Sync="TRUE">Server=sun420; Service=5151; User=gisdata; Version=SDE.DEFAULT</onlink><ftname Sync="TRUE">GISDATA.WETLANDSDEP_POLY</ftname></citeinfo></citation><descript><abstract>The DEP Wetlands datalayer comprises two feature types, polygons and arcs (lines). The attribute codes in the polygon layer describe different types of wetland environments and the arc attributes describe line types based on adjacent polygon types or arcs defined as hydrologic connections. The wetlands are interpreted from 1:12,000 scale, stereo color-infrared photography (CIR) by staff at UMASS Amherst. The interpretation is field checked by Department of Environmental Protection (DEP) Wetlands Conservancy Program (WCP). Completed interpretations are then scanned and converted into rectified polygons and lines using standard photogrametric techniques by a consultant under contract to the WCP. Final quality control is performed by WCP GIS staff. The polygons and arcs are merged into a single layer (in coverage format) and additional attributes are added for the polygon features. The arc features are coded based on the adjacent polygon types, and attributes are added to the annotation subclass wet. An overlay process using the 1:25,000 Hydrography layer codes the PALIS_ID and PWSID attributes. The coding of the PALIS_ID and PWSID attributes was done using an overlay process and was not subject to the same quality control as the 1:25,000 Hydrography layer. Areas of wetlands in this layer may be shown as open water in the 1:25,000 Hydrography layer and so the coding of the PALIS_ID would not occur. Lines represented in the old 1:5,000 Streams layer are shown in this layer as hydrologic connections. These lines are only defined where they connect the various wetland types. These connections were not delineated within wetland areas, nor does they depict a complete stream network outside of wetland areas. Because the source scale of the CIR's is 1:12,000, plotting of open water features at a larger scale when overlaid onto existing 1:5,000 imagery will reveal areas of open water that are not delineated as such. It should be noted that the resulting wetlands shown in this datalayer are for planning purposes only. Wetlands boundary determination for other purposes, such as the Wetlands Protection Act MA Act M.G.L. c. 131 or local by-laws, must use the relevant procedures and criteria.</abstract><purpose>Planning and analysis</purpose><langdata Sync="TRUE">en</langdata></descript><timeperd><timeinfo><sngdate><caldate>20070101</caldate></sngdate></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>Unknown</update></status><spdom><bounding><westbc Sync="TRUE">-73.526483</westbc><eastbc Sync="TRUE">-69.410358</eastbc><northbc Sync="TRUE">42.908627</northbc><southbc Sync="TRUE">40.884000</southbc></bounding><lboundng><leftbc Sync="TRUE">34476.019585</leftbc><rightbc Sync="TRUE">370684.843746</rightbc><bottombc Sync="TRUE">739141.312580</bottombc><topbc Sync="TRUE">961999.999980</topbc></lboundng></spdom><keywords><theme><themekt>None</themekt><themekey>wetlands swamps marshes marsh bogs water features ponds lakes hydrography hydrology hydrologic</themekey></theme></keywords><accconst>None</accconst><useconst>None</useconst><ptcontac><cntinfo><cntorgp><cntorg>EOEA - MassGIS</cntorg><cntper>Michael Trust</cntper></cntorgp><cntpos>Sr. Database Administrator</cntpos><cntaddr><addrtype>mailing address</addrtype><address>251 Causeway Street</address><address>Suite 500</address><city>Boston</city><state>MA</state><postal>02114</postal><country>USA</country></cntaddr><cntvoice>(617) 626-1000</cntvoice><cntfax>(617) 626-1249</cntfax><cntemail>michael.trust@state.ma.us</cntemail><hours>9 AM - 5 PM</hours></cntinfo></ptcontac><native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native><natvform Sync="TRUE">SDE Feature Class</natvform></idinfo><dataqual><lineage><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=Phoenix; Service=esri_sde; User=massgis; Version=SDE.DEFAULT</srcused><date Sync="TRUE">20061222</date><time Sync="TRUE">16184300</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\temp\WETLANDSDEP_POLY.shp.xml</srcused><date Sync="TRUE">20070126</date><time Sync="TRUE">12230400</time></procstep></lineage></dataqual><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="Wetlands"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><planar><planci><plance Sync="TRUE">coordinate pair</plance><coordrep><absres Sync="TRUE">0.000165</absres><ordres Sync="TRUE">0.000165</ordres></coordrep><plandu Sync="TRUE">meters</plandu></planci></planar><geodetic><horizdn Sync="TRUE">North American Datum of 1983</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001</projcsn></cordsysn></horizsys><vertdef><altsys><altres Sync="TRUE">1.000000</altres><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc></altsys></vertdef></spref><eainfo><detailed xmlns="" Name="Wetlands"><enttyp><enttypl Sync="FALSE">Wetlands</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr xmlns=""><attrlabl>SHAPE</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">BoundarySo</attrlabl><attalias Sync="TRUE">BoundarySo</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr xmlns=""><attrlabl Sync="TRUE">Name</attrlabl><attalias Sync="TRUE">Name</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Name of wetland</attrdef><attrdefs>City of Newton</attrdefs></attr><attr xmlns=""><attrlabl Sync="TRUE">Type</attrlabl><attalias Sync="TRUE">Type</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Type of wetland</attrdef><attrdefs>City of Newton</attrdefs></attr></detailed></eainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>EOEA - MassGIS</cntorg><cntper>Michael Trust</cntper></cntorgp><cntpos>Sr. Database Administrator</cntpos><cntaddr><addrtype>mailing address</addrtype><address>251 Causeway Street</address><address>Suite 500</address><city>Boston</city><state>MA</state><postal>02114</postal><country>USA</country></cntaddr><cntvoice>(617) 626-1000</cntvoice><cntfax>(617) 626-1249</cntfax><cntemail>michael.trust@state.ma.us</cntemail><hours>9 AM - 5 PM</hours></cntinfo></distrib><resdesc>Downloadable Data</resdesc></distinfo><metainfo><metd Sync="TRUE">20070202</metd><metc><cntinfo><cntorgp><cntorg>EOEA - MassGIS</cntorg><cntper>Michael Trust</cntper></cntorgp><cntpos>Sr. Database Administrator</cntpos><cntaddr><addrtype>mailing address</addrtype><address>251 Causeway Street</address><address>Suite 500</address><city>Boston</city><state>MA</state><postal>02114</postal><country>USA</country></cntaddr><cntvoice>(617) 626-1000</cntvoice><cntfax>(617) 626-1249</cntfax><cntemail>michael.trust@state.ma.us</cntemail><hours>9 AM - 5 PM</hours></cntinfo></metc><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metextns><onlink>http://www.mass.gov/mgis/wetdep.htm</onlink><metprof>MassGIS Web Documentation</metprof></metextns><metextns><onlink>http://www.esri.com/metadata/esriprof80.html</onlink><metprof>ESRI Metadata Profile</metprof></metextns><langmeta Sync="TRUE">en</langmeta></metainfo><Esri><CreaDate>20191227</CreaDate><CreaTime>10131000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20230503</SyncDate><SyncTime>10374200</SyncTime><ModDate>20230503</ModDate><ModTime>10374200</ModTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\gis2.dmz.ci.newton.ma.us\Data\DataDevelopment\Staging\Wetlands.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemName Sync="TRUE">Wetlands</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">218908.394060</westBL><eastBL Sync="TRUE">228138.078193</eastBL><southBL Sync="TRUE">891165.937563</southBL><northBL Sync="TRUE">902612.624917</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.1.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,656166.6666666665],PARAMETER[&amp;quot;False_Northing&amp;quot;,2460625.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-71.5],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,41.71666666666667],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.68333333333333],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,41.0],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2249]]&lt;/WKT&gt;&lt;XOrigin&gt;-119851500&lt;/XOrigin&gt;&lt;YOrigin&gt;-94498200&lt;/YOrigin&gt;&lt;XYScale&gt;37371882.687749371&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102686&lt;/WKID&gt;&lt;LatestWKID&gt;2249&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171211" Time="141221" Name="" export="">CalculateField Wetlands_DEP_Modified2 BoundarySource "State" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171211" Time="143606" Name="" export="">CalculateField Wetlands_DEP_Modified2 BoundarySource "Combo" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171211" Time="143742" Name="" export="">CalculateField Wetlands_DEP_Modified2 Type "Surface Water" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171211" Time="143805" Name="" export="">CalculateField Wetlands_DEP_Modified2 Type "Pond" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171211" Time="143938" Name="" export="">CalculateField Wetlands_DEP_Modified2 Type "River" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171211" Time="144007" Name="" export="">CalculateField Wetlands_DEP_Modified2 Type "Wetland" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20191209" Time="150206" Name="" export="">FeatureClassToFeatureClass X:\Geodata\Publication.gdb\Wetlands "Database Servers\GIS2.DMZ.CI.NEWTON.MA.US_NEWTONGIS.gds\Editing (VERSION:dbo.DEFAULT)" Wetlands # "BoundarySource "Boundary Source" true true false 10 Text 0 0 ,First,#,X:\Geodata\Publication.gdb\Wetlands,BoundarySource,-1,-1;Name "Name" true true false 50 Text 0 0 ,First,#,X:\Geodata\Publication.gdb\Wetlands,Name,-1,-1;Type "Type" true true false 10 Text 0 0 ,First,#,X:\Geodata\Publication.gdb\Wetlands,Type,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,X:\Geodata\Publication.gdb\Wetlands,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,X:\Geodata\Publication.gdb\Wetlands,Shape_Area,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\ExportFeatures" Date="20230503" Time="103742">ExportFeatures Wetlands \\gis2.dmz.ci.newton.ma.us\Data\DataDevelopment\Staging\Wetlands.shp # NOT_USE_ALIAS "BoundarySource "Boundary Source" true true false 10 Text 0 0,First,#,Wetlands,BoundarySource,0,10;Name "Name" true true false 50 Text 0 0,First,#,Wetlands,Name,0,50;Type "Type" true true false 10 Text 0 0,First,#,Wetlands,Type,0,10" #</Process></lineage></DataProperties><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>FGDC</ArcGISProfile></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 22621) ; Esri ArcGIS 13.1.0.41833</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"/><countryCode value="USA" Sync="TRUE"/></dataLang><idCitation xmlns=""><resTitle Sync="FALSE">Wetlands</resTitle><presForm xmlns=""><PresFormCd Sync="TRUE" value="005"/></presForm><date><pubDate>2015-04-07T00:00:00</pubDate></date><citRespParty xmlns=""><rpIndName>CIty of Newton, GIS</rpIndName><rpOrgName>City of Newton, Massachusetts</rpOrgName><rpPosName>GIS Administrator</rpPosName><rpCntInfo xmlns=""><cntAddress addressType="both"><delPoint>1000 Commonwealth Avenue</delPoint><city>Newton</city><adminArea>MA</adminArea><postCode>02459</postCode><eMailAdd>gisinfo@newtonma.gov</eMailAdd><country>US</country></cntAddress><cntPhone><voiceNum tddtty="">6177961184</voiceNum></cntPhone></rpCntInfo><displayName>CIty of Newton, GIS</displayName><role><RoleCd value="006"/></role></citRespParty></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"/></spatRpType><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-73.526483</westBL><eastBL Sync="TRUE">-69.410358</eastBL><northBL Sync="TRUE">42.908627</northBL><southBL Sync="TRUE">40.884</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt xmlns=""><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-71.270795</westBL><eastBL Sync="TRUE">-71.158360</eastBL><northBL Sync="TRUE">42.373789</northBL><southBL Sync="TRUE">42.270458</southBL></GeoBndBox></geoEle><exDesc>now</exDesc><tempEle><TempExtent><exTemp><TM_Period xmlns=""><tmBegin>2015-04-07T00:00:00</tmBegin></TM_Period></exTemp></TempExtent></tempEle></dataExt><idPurp>Planning and analysis</idPurp><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;P STYLE="font-size:16ptmargin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;This layer shows wetlands in Newton. These were originally mapped by the state Department of Environmental Protection (DEP). Some of the wetlands have been updated after site visits and where wetlands have been marked with flags, the boundaries have been adjusted.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="font-size:16pttext-indent:48;margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;The wetlands shown in this data layer are for planning purposes only. Wetlands boundary determination for other purposes, such as the Wetlands Protection Act MA Act M.G.L. c. 131 or local  by-laws, must use the relevant procedures and criteria.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><searchKeys><keyword>wetlands swamps marshes marsh bogs water features ponds lakes hydrography hydrology hydrologic</keyword></searchKeys><resConst><Consts xmlns=""><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><dataChar><CharSetCd value="004"/></dataChar><idStatus><ProgCd value="001"/></idStatus><resMaint xmlns=""><maintFreq><MaintFreqCd value="009"/></maintFreq></resMaint><resConst><LegConsts xmlns=""><useLimit>THE CITY OF NEWTON'S MAPS AND ASSOCIATED DATA ARE PROVIDED WITHOUT WARRANTY OF 
+ANY KIND AS TO THE CONTENT, SEQUENCE, ACCURACY, TIMELINESS OR COMPLETENESS OF 
+ANY OF THE DATABASE INFORMATION. THE CITY OF NEWTON SHALL ASSUME NO LIABILITY FOR: 
+
+  1. ANY ERRORS, OMISSIONS, OR INACCURACIES IN THE INFORMATION PROVIDED 
+     REGARDLESS OF HOW CAUSED; OR 
+
+   2.ANY DECISION MADE OR ACTION TAKEN OR NOT TAKEN IN RELIANCE UPON ANY 
+     INFORMATION OR DATA FURNISHED HEREUNDER.
+</useLimit></LegConsts></resConst></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"/><countryCode value="USA" Sync="TRUE"/></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"/></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"/></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">Server=sun420; Service=5151; User=gisdata; Version=SDE.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">SDE Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="2249">NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">5.3(9.0.0)</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Wetlands"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20230503</mdDateSt><Binary><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6r3
+OoWtk0a3FzDA0mdiySBS2MZxnr1H51YrM1SyleZLmFPOYL5bxEgEr1+XPGc/TP4CufETqU6bnSjz
+NdO41ZvU06K5i30+zkDN5DCRW24kYl4SONqnJ2AdgpA7jrmtPS765muHtpkWQRIM3CtyT2DLgAEj
+ngnp2yK8zB5rSxdV0eVxkuj/AB+40lTcVc1KKq6lfCwt9+A0rHbGhOAzYJxnsMAk+wNZlnr0m3fK
+Y7yFsgS2aHhuwK5bg/3s45Hbmu+rjKFCoqVSVm/6+RCi2ro3aK5TUJ5da1S0ikhEdvCGleJ2Dk5B
+ALYyFPIxzzh/QZtfZHRcR3l0g6jMzP8AN2PzZPHpnB7g15FXPcLSqOGrXdGipSaudDRWKupaijbm
+it5EXgohZWb1YE8D/d5/3q07O9ivYy0Z5U4ZGGGQ+hHb/J6V6uHxuHxTaozu1/XUzlFx3J6KKK7i
+QooooAKZLNHAoMjrGGYKCxAyxOAPqTxT65vxPNb3zxWLXMcBG/MjMPvFCgUAkZPz546YHrXLicRH
+DUnVl0KiuZ2OkqO4nS1gkmlbbHGpdmxnAAyTUWn3gv7OOfbsZshkznawOGXPfBBGfapLq3S8tpoJ
+M7JUKNjrgjBroUlJXRItvcR3UKSxNujcZBxj9O1SVz6+H9QjYmHVBaMScmKNmByck7WYqpJ9j655
+roKzpSnON5x5X8v0G/IKKKK2EFFFFABRRRQAUUUUAYl1htZnMfQRIsvpuySMe+Dz7baguFa0Es8d
+5NaI3zSCNUbccAZwyk5wAOOvFSBTHqmpK3BaVJAPVTGig/mrD8DUFz++1K0iHSINO2O3G1QfruYj
+/cr8wx9epDH1JwfK79PL/M7opciTKdpbvql9cT3r3Mhh2wLFO6jbxuYkR4Ug7l65+6K0LjT4biTe
+wdHxgtFI0ZPpkqRn8emTUem/vGu515imm3xt/eUIq5+hKnHqMGrteXWrVKs+ecrstJJWRVsrL7H5
+/wC9eXzZN+ZMZHyquM9+FpupSN5ccEbFZLh/LDKcFVwSxz2O0HB9SKuVRg+bVbnzOZY1Xy/RY2H8
+yyN+AFZLV3Yxf7FsW/1lsk7f3rj9630y2Tiql9byaGgv7FmUW6kyQtl1MeDkAZzx1CggfLjjOa2K
+zvEMywaHfM2fmiZFAGSWYbVA9ySB+Nb4etUp1YypvW4mk1qbOl6i1xuguCi3iZJVeA654dRknHTP
+ofwzoVy7alHHNZXAbyZvtH2cRykKzZcRuvvg88dSo7V1FfpeW4qeKoXqK0ouz9UcU48r0CiiivWM
+ytqV8mm6fcXUmNkKF8E4zjoPqTx+NRW5tvISeWCO1lvFUOkihWZiv3G9SORj60usaXHrGny2svAc
+cNjoR0P+SOM1z+oQ6ldWdhNdxLFIkZSZmAk8ttw3MVHUMFHQjaCea5MRVnRjKajzWWy/EpK+h1UM
+MdvGscUaxRrwqIAAPoBT65Sz1SS40/7LNcyL9lytzcOTGTydoDemMHdnJGPU09b6LS5rCcXsptJ5
+fLdpJmmQgoxU5JOBkDkYHrxXnf2vh3WjQjd3tr0Vy/Zu1zqKoa/N9n0PUJhIYvLt5H3q20rhSc57
+dKv0jKHUqwDKwwQRkGvbeqsZHMLoqawroAzWu4q8k8jSFiDg7QT94YI3nkY4yK6io7e3jtYUihjW
+KJBhUUYAqSuTC4ZYaHLdt9W3e5UpczCqmqXZs7KR48GdhthU87nI4H9T6AE9qt1y2qXEkms+Y4le
+C0m2KkILcmEHJUeu8jPbC+rGs8fivqdB1La7L1HGPM7EtvGukXaXEUTyiQFLgqMu/dXPqQePbeew
+oqvcaw0JVHSOwZuj3sqAfUBWJb6cfWivh8Nm+Kw9P2as/W7f4M6ZU4t3Ospk0yW8MksjbI41LMx7
+ADJNPrM16ItaRSgFxDMkjJ2Izgk/7ud31UV+h1ZunTlOKu0m7dzkWrsZjWMWpyfa762jknkRR5ci
+hhGoyQoHqMnJ6kk9sAPXSrSOGeOG3jtxMmxzCgQkYI6j0yfzqzHIsiK6MHRhkMpyCPUU6vyCrWqV
+pupN3bPQSSVkVdLma5020mcAPJCjkKMDJUHip5pUgieSRtqIpZm9AOSaqLZ3VuojtriJIFGFSWEu
+VHoCGHH1/Osy2+3XU19Y3McoMhVnZnUxiMkqduDldwUgLjjqSSSanlUru4zaW6HmLHLHLbyt0WVM
+Z78HoTjnAOfXoaq+fHY311JdMIlkK+XM3CBAo+Ut0B3Fjz/erT0uMahpMkM2ZIRI8SMT82FbAOeo
+IIwD1+UHrVazkkMZjn4uYT5cvoWwDkexBBHsecHIr2sfl8cLThXpXcJLruuplCfM7PcW2vILxWe3
+mjnVTtLRuGAOM4478j86r6taG6t0ZVLvDIJVCnB4yDj/AGsE49Dih2+z6xGc4W4iKnd03IcqB7kM
+5+i+xq9XiXcGpRNTn7zbeS7kSP7VEVlS6j+VpC5KxrgghT5iqWz8uUUkdQvbru2jcQWxyQMCuTvd
+Ht7jVtOlCIszXC5bYD9395keh/dgZHb1wBXW1+jZLVniKUq1R6t2+5fnrqzjqJJ2RFded9lm+z7P
+tGw+X5mdu7HGcds1kaf4kVrw2N6BDd4UjCMAckjBHIXBwPvEHIwea3Ky9XvvstxbItpHcybXlBkc
+LsC7QSDg8/N7fWvYrSVNe1lK0Vv2/wAzJa6GpRUdvMtxBHKmdkih1yMHBGelSV0iOOuNCtfDmizp
+I4u7jYxgkMY3QquW3DnqCxbPGSQPSoLWzvUtNImaVTtZkWJgNhdUKg7gM4YCRt3PVePXY8XTFbXb
+b8Xsa+csitgooIyDwfvYwARgkf7NaZ0m1bT4LLyvLghVVjWN2UoFGAFYEEccfTI718/XwNPEynTj
+b3Y2Xk3rr/WzNVJxszE0Jbu3m06ze5Dvbwqs0MA/dJGIyozkdSwXGeeDjjdXUVDaWcNjD5UKbUzk
+5JJJPUknkn61NXq4WlOjSUakuaXV/wCXkRJpvQKKKK6ySC+vEsbZpnBYAqoVepYkKB+JIrJt42Xz
+JJCGnmbfIy9M4AwPYAAfh61s3FvHdQtFKu9G6jp7gg9iDzntXNrbomrS2TloLATbVEbFOSiFV3Dk
+KWL9COQBnnB+aznDVsSoRhJKN7a92bU5KNzW8Pqp02KbA+0SjM7d/MHDL9AcgfSir1vbx2sKxRLt
+Regzn6knuT696K+hpw9nCMF0Rk9ySiq+oXX2Gwubnbv8mJpNucZwCcZ/CsFtYutNtUsp5xc3ksZS
+3nVcO0mOCycjA6lunqPXCti6OHnGFWVm7/gNRbV0TQqP7Q1IqMJ54C7fu/cUt7Z3Fsn1qxTIYlgj
+WNBhV6c5P4nufen1+U4mt9YrTq2td3O+KsrGaY57jULmP7ZNAECMixKhG0jHO5Sc7lb8MVW0td2q
+TyJcrNbKMITIzswYJjJI5G5XwQSPmI45FLJcGG7unvIJbWOf9wt0rqEVFDFSWDZUklsEjqyjrSTR
+xXWi6ZcvDEJENu6EIP3eXTO30GPTtU+XcDf8Otts5IGwZIJWWRgMB2bDlgO2d/T1zVaRGt9UvPMG
+0XEgkibswEaKR9cqePSmpdJp2qQM7hEusQEE9X6of/Qh+I9K2bq1S8hMUgODyCOoI5BHvX3tOnHN
+sujC9mvzX6HK37OZjXlubmHCtslU743x91h0/DsfUEjvVS61yGztHklVlnQc2/8AFnGePUAAnIzw
+p9DWo2glo2/065eTH7tnKgK3YkKF3fQ8VlXlysluiS+RbTSP5En2kbki43OG5HBVTj1yp6Gvl6+U
+4jDOEZ2fM7ad/PQ2VRSvYsTaPqGy2vUuT9rhcym1Kq0QBVlKjADEgN13ckenFWbPxRDcxo8kEkEJ
+4NwWUw5x65Bx7kCqVjfX0GpWVrPcSN5jbV8wRsksYVjuUr8xPyjJJH3gccgU68kbQY3jaJpI+fsx
+Xo3PyxZ7HJwPUDPrj6mtUngqXPg4e7F2kn+f/B+djBLmdpM6WsXxZZ/atKdlOyRTs346I5CPn2AO
+7r1UHtVLQZNR029hsbhoHsHDCFlyGRuWWIADhVUEZOc7e2QK0/ECySWKxKkjwSt5dx5Slm8sq2cA
+c8naOOQCTx1HpfWKeMwkqkFdNPTd/wDDkWcZWLlhdfbrG3uNuzzY1fbnO3Izj8KsVy2jzXWn3rQx
+21x9klcBYplkJXJy0u9sgZz9w4PGepwenWRWZlDAsvDAHkfWurD1nXpqbi4vqmrCaszl/Fl2sV9A
+sNluuwAftTRNnjJVFI+8c/Ng5ACs2DjFdLazC4tYZVkSZXQMJIx8rZGcjk8H60y8sYNQiEc6FlB3
+DaxUg4IyCCCOCR+JqdVCKFUBVUYAAwBVQhKNSUm9HYXQWomuoY7hIGmjWZxlYywDMPYd6lrl7zTY
+5vE13cGSRv3EaFVbCq2Se3IcYByCDhx7VhjMUsHRdaSukOMeZ2OoorASGa3z9nu5ow3DeY5lP1G8
+nB/Tk5HQiK5trpoZHjvrh7tVPlO8m1QewKqApGfVSefpXj/6wYRpaPXy2/E19jI6SqN1pMN3eRXD
+s4Zdu5VI2vtJZM8Z4Y54I98jipNLulvNOt5lkMu5Bl2ABJ6HIHAOc9KtV9G4xqJXV1v/AJGIUUUV
+YjK8SXSw6XJC20fag0AZyAqZViWJ9AAfrwPesiSa2km3edOqtJH5kQiOA4ICbiV3JzjjIH5nPVso
+cYYBhkHkdwcisjXpDFNZNJua23MCqqWJkwChwOvAf8SO+K8HM8LKrF1uZ+6mkl1vv9+hrCVtAqrb
+2MFxqUsVzEsxmQyxS5O+HaEUhT/Dyc5GOpp8MkmoOEstrLtDNcN80a5AIGAQSxBBxxxySMgG1GIN
+HlPmzPc3s6EqoUbmCgttQDoOuMnPqTivnslwNZVViJq0NVr19PmbVJK1upSZ5NPvHtrl3kVtrRTm
+IqhzxsLAY3ZHT/aFS3EC3ULRvnB7jqCDkEe4OD+FUdNMupwz26yySi7id5Lgxu0cU4wAUJA4Bzxn
+IKDoc1YW+Ku8U0EyzxnDpFC8gHPBBC8gjn/9Rrmx2Ab5cRhYPll0tqvl2e44T6SZi6payQjU83cz
+S/ZGZGkRSrqVIZeg5G0E7SOqkjue9rlNSaLUrV7XyphNJ8sSyRPGdxGMjIGQATnH8Oc8V1de/kNO
+pCFT2kWtVurGVW11YKzb/wAO2GpTCWeJ/MDiQMkrp8wGA2AQCQO59K0qK+nlGM1aSujA5j+ybmwu
+IDb2CvLFIHE8QjRJOGU7xkEHDN0BwSDz0rU12FnhtphG0ot5hIyopZiCrLkAdcbgfoDWnRXDHA0o
+Up0Y35ZX+V1bQvmd0zlri4eRhcQq6iEfupHjIBlk/dqRkfMFDMT9RVpdSudNmgW4uUltpJMPcXG1
+TGNpOPlAGCQOT3OOc8M8TWst3qWnpFMYGWOWQMM9Q0Y9fc+3qCMgs0+S4LFJhIQFBLSqoIbnIBXh
+h+WOOpzj5WtVlldRUsPL3ae6b1lf5fLTY3S9orvqaN9qcjS+RZNGZFP7ySRSyJ/s8EZb8eMc9sw+
+HLP5bjUHdnmvNpJfG7aoIXcAMBuecAYwB1BJylkj8PsYnVIdPkkJicHAjdiDsx1+ZixGPXHHGdPT
+YX1DwzDBHJJbSL+7MgJDEo+CTg5G4qc4P8R5r0sux08diJzlsl7q/rr/AJkTiopI3KK5aa51PU9M
+McNzHC6qYzKuQ0rqcE5H3ASD0BPIPtV2LUNVSNTJFaStgAxh2THq27BznrjaMZxk4yfQebYOM3CU
+7Naf1/ViPZytexrXl0ljbSTyZKqPur1Y9AB7k4A+tY9tG6ea0m3fJI0hVSSBntk8n6/yGBTdQvje
+WbSlPIurFvP8liGEmVdVCkf3iSB3zj5exsV87n+JlUVOEGnB637s2oxtd9QqG6uo7O3eaU4RBk1N
+Ve+kkWDy4Ti4mPlQ8Zw56HHoOp9ga+TpwdScYJXuzoeiFsrxdJmuEmjZpriTz3jgw5hXYijfjudv
+QZzzjIGaseIIZdY8Pzpp8iSySbTG6uNpw4J5+gNPTw1p0bMfs5ZWCgxySO0Z2qFGUJ28BV7ds9ao
+XmjxaBJHe6Wi2YaZVnhQYik3HAyo6HcRyOmWPNfqsYyw9JxlbkitLXukl+P9bnB8T8zolUIoUZwB
+jkkn86KgsLxb61WZV28spU9mVipH5g0V3xkpJSWzIKetWd3etAsCwyW43GWOSVo8njb0U5H3uD3x
+6VHpkNzd2V1a38cgiZfL+dsnBBDKG6kDsx5OatafqTXUjwzRrBOo3BVfcGX1BwM4PB44yPUVerlp
+xpVpfWKcrp+ej+RTutGcfY2et2P2xw7bvN5kldFSUqije428IcfwYOO2ea1tZa2jt4NXjVZ5IzGI
+3ExRGV2CglhkYAcnOOhI6E50NSsRqVm9uZGjDEElQDnBBwQeoOMEdxmmabp/2PT47WUpMEJxhMKB
+uJUBcnAAwAO2BUww6pRdKntbS+tn0svLcOa+rJLC7W8t96r5bBirxnqrA8/4+4IPerNRW9rDZx+X
+BDHBHnO2NQoz9BUtdkeZRSluSFFFFUAUUUUAFFU5NUih1OOykR0eRN8chA2OcnKg5zkcHpjkc1cp
+XT2Az9R0o39xBKtzJbmNHTMaqSQxU9wQPujtWdembSHt/tEyzxTSeUuyIhwdrMOATuJ2noB9K6Gi
+vNxWXYfFpucfefXqXGbjsZNrpH2hDLfDLvGUEI4EYOCRkHlsgfMD24x1NCOOXRPEFvEZ3khuySWk
+PHCkHIHyg7vLAIAzuxyea6Wuf1y3hfUI3vlSW3MbeX5oGyMjBYEHjJHIPordOc44mnSwOHVSlD4N
+rb2vr8n137jjeTs3uQ2l1DNf3oMkf21pX3xgjftRtinHXGNvPvV6s/TbO1U/abbcsbZ2RlNix52h
+gFwCMlBnPcdsmtCvznF1FVryqK+vf8vlsdsVZWKrWIe8adnJQqg8rHBZSxDH1xu4HQHnrjFqiiue
+U5TtzO9tEMjuJhbwtIQWxwFXqxJwAPcnA/Grmn6WlviedI5L0/elxkrn+FSeQo/Xk9SaqW0f2rVo
+1P3LZPNP+82VX6jAf8cVt193kOCjCl9Zmvelt6f8E5astbBVTVrd7zS7yCMZkkhdE/3iDj9at0V9
+W1dWZzmFpV4q3cLIc218u5PZ9u7OPdQf++feiqurRnR0eRgRbRzLcRyKPugMGZPYn5gO2GAorx8t
+56NN4etvB2XmujNJ2bui3NEJQvLI6ncki/eU+o/zggkHg1PDrawgJfL5DD/lsqkxN75/g/4F68E4
+zVSxhkt7VElbc+Sx+cvjJJ2hjyQM4BPpVivhcHmNXL5ONN80e36rsdcoKe5rghgCDkGlrgdFsbrU
+765WK9lgjyZY1V5NqxuEZAQrrjhuPo/pXb2MElraxxSzG4kUYMhGM88dyeBxySeOSa/SMPWlWXM4
+NL5HE1YybrxZbQnCIXLDMbNIiq/uOd2Pop9s1tQyGSFHZGjZlBKN1XjoaSOCOFnMcaoXO5iqgbj6
+n1NSVtCNRNucr+it+rFp0CiiitRBRRRQBW1DTrfVLcwXMYkjzkdiD6g9v/r1laRNNpmqTaZczyzx
+tiS2lnbc7DHILfUHA6/K2eMVvVkeIdNe+gR4oVuJIwwMTNt3qRnAPY7lQg+1c1bmjH2lNXkunfy/
+y8xrszXoqOBXjhjWSTzZFUBpNuNxxycds1JXSIKxNWvXumntLe2jlkhIBmuCNsb7QylRg5I3A8gD
+3rbrn7ZvNuL+bG0SXDAD/cAj/UoT+NeLm+Lng8Pz03Zt2NacVJ6ksMKW8McUY2xxqFUZzgAYFPoo
+r8v3O4KKiuZmhjGxPMlYhI0zjcx4Az2HqccAE1MNEmk2vJeyRzd/IAChfTDZyf8Aa9u3Ir1MHluI
+xycqS0XVmcpqO4/QU3R3NyeRPKdmeuxQFH4EhmH+971qVHb28drCkUS7Y0GAM5/XvUlfp9CkqFKN
+JdFY4W7u4UUUVuIKKKKAMeiiivxQ9Mf4ejjS1cBFWaN2hYgDIRWJjUn0CsMema1ax9IbytSvYeiy
+Kk4z/E2CrY9gFT/vr3rYr9cwFX22Fpz8vy0Z58laTQUUUV3kBRRRQAUUUUAZ9nq6XmoXVoqENB1O
+c98cj+HnpnqASK0Kr3N/BZyQpNJsaZtqDBOTkDt05IGT3I9asVEb7N3YBRUdxcR2sLyyttjQZJxn
+9O9UbDWkumSKeNrS5YnbE+SD1IAbG0naMkAnGD6ZqZVYRkoSkk3sh2e5pVg+X9l1G6tl5Ti4B9N7
+PkfmpP8AwLHbneqjrGnLqFnKFRPtSo3kSsOY3I4IPUc4rhzHB/XqDpJ2e6KhLldyrRWXpt9Le3sr
+Bg1vz8u5H2cJt+ZCRknzMjJ6L0zzqV+XVqMqEuSe+n4/qd6d9UQltuqaacZ3SsuD2/duc/XjH4mt
+6sS2j+1atEOi2o84+7MGRR9Mb8/8B9626/RMjhOODXN1ba9Diq/EFFFFfQGQUUUUAFFFFAGPRRRX
+4oemV55Da3Ftcp98SLCfQrI6qR+eD/wH610FFFfoXD0pSw0ot6JnHW+IKKKK+pMAooooAKKKKAKV
+9pUV/dWs8jMpt2yFXGG5DYPH95VPHp6Zq7RRUqKTbXUCC8tEvrWSCQsqt/EpwVIOQR7ggH8K49Y1
+03U7jTFMkrfaIblriRsszNInUYxxx0wOOgoorzMfShNU5NaqUfzRpFvU7ekZQ6lWAZWGCCMg0UV6
+pmYKobO9ls9xdI0SRGPUKxYBT6429e+RnkZJeSNHCNh2s8iRBsZ27nC5/DOfwoor8yxNGnHM/ZJe
+65LT1tc7ot8lzWsbGOxVgrNI7nLySHLN+XA+gAFWaKK/S4xjCKjFWSOEKKKKoAooooAKKKKAP//Z</Data></Thumbnail></Binary><mdContact xmlns=""><rpIndName>CIty of Newton, GIS</rpIndName><rpOrgName>City of Newton, Massachusetts</rpOrgName><rpPosName>GIS Administrator</rpPosName><rpCntInfo><cntAddress addressType="both"><delPoint>1000 Commonwealth Avenue</delPoint><city>Newton</city><adminArea>MA</adminArea><postCode>02459</postCode><eMailAdd>gisinfo@newtonma.gov</eMailAdd><country>US</country></cntAddress><cntPhone><voiceNum tddtty="">6177961184</voiceNum></cntPhone></rpCntInfo><displayName>CIty of Newton, GIS</displayName><role><RoleCd value="006"/></role><displayName>CIty of Newton, GIS</displayName></mdContact></metadata>
