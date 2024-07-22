@@ -3,7 +3,7 @@ Newton, Massachusetts Open GIS Data on GitHub
 
 The City of Newton posts its primary GIS data layers to this site. 
 
-These layers are also available for download in Shapefile format on our website at http://www.newtonma.gov/gov/it/gis/online_data_dictionary.asp
+These layers are also available for download in Shapefile format on our website at https://www.newtonma.gov/government/information-technology/gis/gis-data-dictionary
 
 Our data is in Massachusetts State Plane Coordinate System NAD 83, feet, except those files converted to GeoJSON which are in WGS84. Data is frequently updated. Full documentation is available from our data dictionary - https://www.newtonma.gov/home/showpublisheddocument/28293/637921180989870000 If you have any questions, comments or further data requests, please email us at gisinfo@newtonma.gov
 
